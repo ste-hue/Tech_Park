@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" description="Sci-fi themepark London attractions">
+    <meta name="description" content="The coolest Sci-Fi and technology themepark in London provides endless hour of fun with coding challenges, daring rides, restaurants and entertainment for the whole family"/>
+    <link rel="stylesheet" href="styles.css">
+	<!-- Include the Font Awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sci Fi Theme Park Attractions</title>
+</head>
+<body>
+	<header>
+		<div class="login">
+			<a href="login.html">Login</a>
+		</div>
+		<div class="header-title">
+			<h1>
+				<a href="index.html">Theme Park</a>
+			</h1>
+			<a href="index.html">
+				<img alt="Theme Park Logo" src="images/home/logo_theme_park.png">
+			</a>
+		</div>
+		<div class="tickets">
+			<a href="tickets.html">Tickets</a>
+		</div>
+	</header>
+	<main>
+		<!-- Daisy and Paul: Attractions content and layout -->
+		<!-- Navigation links -->	
+		<nav>
+			<a href="attractions.html">
+				<i class="fa-solid fa-rocket"></i>
+				<span class="hidden">Attractions</span>
+			</a>
+			<a>
+				<i class="fa-solid fa-hotel"></i>
+				<span class="hidden">Hotels</span>
+			</a>
+			<a href="food.html">
+				<i class="fa-solid fa-utensils"></i>
+				<span class="hidden">Food</span>
+			</a>
+			<a href="contacts.html">
+				<i class="fa-solid fa-phone"></i>
+				<span class="hidden">Contacts</span>
+			</a>
+		</nav>
+		<!-- Daisy and Paul: Navigation menu -->
+		<!-- Content section -->
+		<section>
+			  <!-- Daisy: Attractions content -->
+			<div class="attractions-container">
+				<figure>
+					<a href="alien-arcade.html">
+						<img src="images/attractions/alienArcade.jpg" alt="Alien Arcade One" width= "400" height= "400">
+						<h2>Alien Arcade</h2>
+					</a>
+				</figure>
+				<figure>
+					<a href="alien-horror.html">
+						<img src="images/attractions/alienHorror.jpg" alt="Alien Horror One" width= "400" height= "400">
+						<h2>Alien Horror</h2>
+					</a>
+				</figure>
+				<figure>
+					<a href="ufo-vr-center.html">
+						<img src="images/attractions/ufoVrCenter.jpg" alt="Ufo Vr Center Two" width= "400" height= "400">
+						<h2>Ufo VR Center</h2>
+					</a>
+				</figure>
+				<figure>
+					<a href="carousel.html">
+						<img src="images/attractions/carrusel.jpg" alt="orCarousel One" width= "400" height= "400">
+						<h2>Carousel</h2>
+					</a>
+				</figure>
+				<figure>
+					<a href="roller-coaster-i.html">
+						<img src="images/attractions/rollerCoaster1.jpg" alt="Roller Coaster One" width= "400" height= "400">
+						<h2>Roller Coaster I</h2>
+					</a>
+				</figure>
+				<figure>
+					<a href="roller-coaster-ii.html">
+						<img src="images/attractions/rollerCoaster2.jpg" alt="Roller Coaster Two" width= "400" height= "400">
+						<h2>Roller Coaster II</h2>
+					</a>
+				</figure>
+			</div>
+		</section>
+		<!-- Paul: Attractions layout -->
+		<aside class="sidebar">
+			<div>
+				<label for="standard-select">Choose Attraction Type</label>
+				<select id="attraction-type-filter">
+					<option value="0">Attraction</option>
+					<option value="1">Roller Coasters</option>
+					<option value="2">Ufo Experiences</option>
+					<option value="3">Dark Rides</option>
+					<option value="4">Haunted Attractions</option>
+					<option value="5">Thematic Arcades</option>
+					<option value="6">Ferris Wheel</option>
+					<option value="7">Carousels</option>
+				</select>
+			</div>
+			<div>
+				<label for="age-range-filter">Choose Age Range</label>
+				<select id="age-range-filter">
+					<option value="0">Age Range</option>
+					<option value="1">Under 1 year</option>
+					<option value="2">1 year - 2 years</option>
+					<option value="3">1.5 years - 3 years</option>
+					<option value="4">2.5 years - 4.5 years</option>
+					<option value="5">3 years - 5.5 years</option>
+					<option value="6">3.5 years - 6 years</option>
+					<option value="7">4 years - 7 years</option>
+					<option value="8">5 years - 8 years</option>
+					<option value="9">5.5 years - 9 years</option>
+					<option value="10">Above 9 years</option>
+				</select>
+			</div>
+			<div>
+				<label for="height-range-filter">Choose Height Range</label>
+				<select id="height-range-filter">
+					<option value="0">Height Range</option>
+					<option value="1">Under 32in / 82cm</option>
+					<option value="2">32in / 82cm</option>
+					<option value="3">35in / 89cm</option>
+					<option value="4">38in / 97cm</option>
+					<option value="5">40in / 102cm</option>
+					<option value="6">42in / 107cm</option>
+					<option value="7">44in / 112cm</option>
+					<option value="8">46in / 117cm</option>
+					<option value="9">48in / 122cm</option>
+					<option value="10">Above 48in / 122cm</option>
+				</select>
+			</div>
+			<div>
+				<label for="disability-access-filter">Choose Disability Access</label>
+				<select id="disability-access-filter">
+					<option value="0">Disability</option>
+					<option value="1">Pregnancy</option>
+					<option value="2">Wheelchair</option>
+					<option value="3">Blind or Low Vision</option>
+				</select>
+			</div>
+		</aside>
+	</main>
+	    <!-- Footer section-->
+		<footer>
+			<div class="row">
+				<div class="column">
+				<h3>Sign up to our newsletter</p>
+				<form>
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email">
+					<input type="submit">
+				</form>
+			</div>
+			<div class="column">
+				<p>Follow us</p>
+				<img src="images/footer/facebook.png" alt="Facebook">
+				<img src="images/footer/instagram.png" alt="Instagram">
+				<img src="images/footer/youtube.png" alt="YouTube">
+			</div>
+			<address class="column">
+				Email us <a href="mailto:info@dummythemepark.com">here</a><br>
+				Visit us at:<br>
+				Techthemepark, London, UK
+			</address>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2022 Sci-Fi Themepark Name</p>
+			</div>
+		</footer>
+</body>
+</html>

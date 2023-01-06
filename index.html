@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" description="Sci-fi themepark London attractions">
+    <meta name="description"
+        content="The coolest Sci-Fi and technology themepark in London provides endless hour of fun with coding challenges, daring rides, restaurants and entertainment for the whole family" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include the Font Awesome icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sci Fi Theme Park</title>
+</head>
+<!--
+  This is the homepage for the Sci-Fi theme park website. It was designed by Paul, who also created the wireframes included in the file as a pdf.
+  Stefano worked on the navigation bar and header, while Daisy contributed to the homepage content and added HTML tags to Paul's wireframes.
+-->
+
+<body>
+    <header>
+        <!-- Stefano: Nav bar and header -->
+        <!-- Login link -->
+        <div class="login">
+            <a href="login.html">Login</a>
+        </div>
+        <!-- Logo and name of the theme park -->
+        <div class="header-title">
+            <h1>
+                <a href="index.html">Theme Park</a>
+            </h1>
+            <a href="index.html">
+                <img alt="Theme Park Logo" src="images/home/logo_theme_park.png">
+            </a>
+        </div>
+        <!-- Tickets link -->
+        <div class="tickets">
+            <a href="tickets.html">Tickets</a>
+        </div>
+    </header>
+    <main>
+        <!-- Navigation links -->
+        <!--
+  Stefano worked on the navigation menu, which includes links to the attractions page, hotels page, food page, and contacts page.
+-->
+
+        <nav>
+            <a href="attractions.html">
+                <i class="fa-solid fa-rocket"></i>
+                <span class="hidden">Attractions</span>
+            </a>
+            <a href="hotels.html">
+                <i class="fa-solid fa-hotel"></i>
+                <span class="hidden">Hotels</span>
+            </a>
+            <a href="food.html">
+                <i class="fa-solid fa-utensils"></i>
+                <span class="hidden">Food</span>
+            </a>
+            <a href="contacts.html">
+                <i class="fa-solid fa-phone"></i>
+                <span class="hidden">Contacts</span>
+            </a>
+        </nav>
+        <!-- Slideshow and content section -->
+        <section>
+            <!-- Slideshow section -->
+            <section class="slideshow-section">
+                <figure class="slideshow-wrapper">
+                    <img alt="Futuristic Park Area" src="images/home/slideshow/1.jpg">
+                    <img alt="Star Wars Park Area" src="images/home/slideshow/2.jpg">
+                    <img alt="Marvel Attractions" src="images/home/slideshow/3.jpg">
+                    <img alt="Futuristic Attraction" src="images/home/slideshow/4.png">
+                    <img alt="Roller Coaster: Daytime" src="images/home/slideshow/5.jpg">
+                    <img alt="Roller Coaster: Night time" src="images/home/slideshow/6.jpg">
+                    <img alt="Heroes Park Area: Daytime" src="images/home/slideshow/7.jpg">
+                    <img alt="Heroes Park Area: Night time" src="images/home/slideshow/8.jpeg">
+                </figure>
+            </section>
+            <!-- Content section -->
+            <section class="content-section">
+                <!-- Figure with link to tickets page, image, heading, and caption -->
+                <figure>
+                    <a href="tickets.html">
+                        <img alt="Tickets" src="images/home/categories/tickets.jpg">
+                    </a>
+                    <h2>Tickets</h2>
+                    <figcaption>
+                        Don't miss out! Find great deals on Attraction Tickets and Theme Park tickets for all year
+                        round, and plan your visit. We can't wait to see you!
+                    </figcaption>
+                </figure>
+                <!-- Figure with link to attractions page, image, heading, and caption -->
+                <figure>
+                    <a href="attractions.html">
+                        <img alt="Attractions" src="images/home/categories/attractions.jpg">
+                    </a>
+                    <h2>Attractions</h2>
+                    <figcaption>
+                        Browse our thrill rides and theme park attractions. Plan your day, check height restrictions &
+                        special accesses, and explore our jaw-dropping rollercoasters.
+                    </figcaption>
+                </figure>
+                <!-- Figure with link to special events page, image, heading, and caption -->
+                <figure>
+                    <a href="parties-events.html">
+                        <img alt="Special Events" src="images/home/categories/special_events.jpg">
+                    </a>
+                    <h2>Special Events</h2>
+                    <figcaption>
+                        Get ready for never-ending fun all year round! See our full calendar of special events,
+                        including food festivals, spooky celebrations, VIP experiences and much more.
+                    </figcaption>
+                </figure>
+                <!-- Figure with link to food page, image, heading, and caption -->
+                <figure>
+                    <a href="food.html">
+                        <img alt="Food" src="images/home/categories/food.png">
+                    </a>
+                    <h2>Food</h2>
+                    <figcaption>
+                        It's not all about attractions, roller coasters, and events. Our popular snacks and restaurants
+                        should be on your bucket list.
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer section-->
+    <!-- Marita was responsible for the footer and the food page, and also helped coordinate the team and keep everyone up to date with the control flow. -->
+    <footer>
+        <div class="row">
+            <div class="column">
+                <h3>Sign up to our newsletter</p>
+                    <form>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                        <input type="submit">
+                    </form>
+            </div>
+            <div class="column">
+                <p>Follow us</p>
+                <img src="images/footer/facebook.png" alt="Facebook">
+                <img src="images/footer/instagram.png" alt="Instagram">
+                <img src="images/footer/youtube.png" alt="YouTube">
+            </div>
+            <address class="column">
+                Email us <a href="mailto:info@dummythemepark.com">here</a><br>
+                Visit us at:<br>
+                Techthemepark, London, UK
+            </address>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 Sci-Fi Themepark Name</p>
+        </div>
+    </footer>
+</body>
+
+</html>
